@@ -1,0 +1,21 @@
+(dp1
+S'output'
+p2
+S"<type 'exceptions.TypeError'> format requires a mapping"
+p3
+sS'layer'
+p4
+S'/home/abdulhalim/Desktop/web2py/applications/motor/controllers/default.py'
+p5
+sS'code'
+p6
+S'<code object <module> at 0x7fe2741998b0, file "/home/abdulhalim/Desktop/web2py/applications/motor/controllers/default.py", line 1>'
+p7
+sS'snapshot'
+p8
+(dp9
+sS'traceback'
+p10
+S'Traceback (most recent call last):\n  File "/home/abdulhalim/Desktop/web2py/gluon/restricted.py", line 219, in restricted\n    exec(ccode, environment)\n  File "/home/abdulhalim/Desktop/web2py/applications/motor/controllers/default.py", line 53, in <module>\n  File "/home/abdulhalim/Desktop/web2py/gluon/globals.py", line 409, in <lambda>\n    self._caller = lambda f: f()\n  File "/home/abdulhalim/Desktop/web2py/gluon/tools.py", line 3964, in f\n    return action(*a, **b)\n  File "/home/abdulhalim/Desktop/web2py/applications/motor/controllers/default.py", line 9, in add_device\n    user_name    = "%(first_name) %(last_name)" % (auth.user.first_name, auth.user.last_name)\nTypeError: format requires a mapping\n'
+p11
+s.

@@ -1,0 +1,21 @@
+(dp1
+S'output'
+p2
+S'<class \'gluon.contrib.pymysql.err.InternalError\'> (1054, u"Unknown column \'Device.unit_name\' in \'field list\'")'
+p3
+sS'layer'
+p4
+S'/home/abdulhalim/Desktop/web2py/applications/motor/controllers/default.py'
+p5
+sS'code'
+p6
+S'<code object <module> at 0x7f8ad681e230, file "/home/abdulhalim/Desktop/web2py/applications/motor/controllers/default.py", line 1>'
+p7
+sS'snapshot'
+p8
+(dp9
+sS'traceback'
+p10
+S'Traceback (most recent call last):\n  File "/home/abdulhalim/Desktop/web2py/gluon/restricted.py", line 219, in restricted\n    exec(ccode, environment)\n  File "/home/abdulhalim/Desktop/web2py/applications/motor/controllers/default.py", line 78, in <module>\n  File "/home/abdulhalim/Desktop/web2py/gluon/globals.py", line 409, in <lambda>\n    self._caller = lambda f: f()\n  File "/home/abdulhalim/Desktop/web2py/applications/motor/controllers/default.py", line 10, in index\n    ON Device.id = User_Device.device_ref_id WHERE (((auth_user.username)=%s))", user_name)\n  File "/home/abdulhalim/Desktop/web2py/gluon/packages/dal/pydal/base.py", line 767, in executesql\n    adapter.execute(query, placeholders)\n  File "/home/abdulhalim/Desktop/web2py/gluon/packages/dal/pydal/adapters/__init__.py", line 67, in wrap\n    return f(*args, **kwargs)\n  File "/home/abdulhalim/Desktop/web2py/gluon/packages/dal/pydal/adapters/base.py", line 410, in execute\n    rv = self.cursor.execute(command, *args[1:], **kwargs)\n  File "/home/abdulhalim/Desktop/web2py/gluon/contrib/pymysql/cursors.py", line 166, in execute\n    result = self._query(query)\n  File "/home/abdulhalim/Desktop/web2py/gluon/contrib/pymysql/cursors.py", line 322, in _query\n    conn.query(q)\n  File "/home/abdulhalim/Desktop/web2py/gluon/contrib/pymysql/connections.py", line 835, in query\n    self._affected_rows = self._read_query_result(unbuffered=unbuffered)\n  File "/home/abdulhalim/Desktop/web2py/gluon/contrib/pymysql/connections.py", line 1019, in _read_query_result\n    result.read()\n  File "/home/abdulhalim/Desktop/web2py/gluon/contrib/pymysql/connections.py", line 1302, in read\n    first_packet = self.connection._read_packet()\n  File "/home/abdulhalim/Desktop/web2py/gluon/contrib/pymysql/connections.py", line 981, in _read_packet\n    packet.check_error()\n  File "/home/abdulhalim/Desktop/web2py/gluon/contrib/pymysql/connections.py", line 393, in check_error\n    err.raise_mysql_exception(self._data)\n  File "/home/abdulhalim/Desktop/web2py/gluon/contrib/pymysql/err.py", line 107, in raise_mysql_exception\n    raise errorclass(errno, errval)\nInternalError: (1054, u"Unknown column \'Device.unit_name\' in \'field list\'")\n'
+p11
+s.

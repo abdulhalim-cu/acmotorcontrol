@@ -1,0 +1,180 @@
+timestamp: 2017-07-12T11:34:34.063860
+CREATE TABLE "auth_user"(
+    "id" INTEGER PRIMARY KEY AUTOINCREMENT,
+    "first_name" CHAR(128),
+    "last_name" CHAR(128),
+    "email" CHAR(512),
+    "password" CHAR(512),
+    "registration_key" CHAR(512),
+    "reset_password_key" CHAR(512),
+    "registration_id" CHAR(512)
+);
+success!
+timestamp: 2017-07-12T11:34:34.331091
+CREATE TABLE "auth_group"(
+    "id" INTEGER PRIMARY KEY AUTOINCREMENT,
+    "role" CHAR(512),
+    "description" TEXT
+);
+success!
+timestamp: 2017-07-12T11:34:34.399363
+CREATE TABLE "auth_membership"(
+    "id" INTEGER PRIMARY KEY AUTOINCREMENT,
+    "user_id" INTEGER REFERENCES "auth_user" ("id") ON DELETE CASCADE  ,
+    "group_id" INTEGER REFERENCES "auth_group" ("id") ON DELETE CASCADE  
+);
+success!
+timestamp: 2017-07-12T11:34:34.473281
+CREATE TABLE "auth_permission"(
+    "id" INTEGER PRIMARY KEY AUTOINCREMENT,
+    "group_id" INTEGER REFERENCES "auth_group" ("id") ON DELETE CASCADE  ,
+    "name" CHAR(512),
+    "table_name" CHAR(512),
+    "record_id" INTEGER
+);
+success!
+timestamp: 2017-07-12T11:34:34.541637
+CREATE TABLE "auth_event"(
+    "id" INTEGER PRIMARY KEY AUTOINCREMENT,
+    "time_stamp" TIMESTAMP,
+    "client_ip" CHAR(512),
+    "user_id" INTEGER REFERENCES "auth_user" ("id") ON DELETE CASCADE  ,
+    "origin" CHAR(512),
+    "description" TEXT
+);
+success!
+timestamp: 2017-07-12T11:34:34.599761
+CREATE TABLE "auth_cas"(
+    "id" INTEGER PRIMARY KEY AUTOINCREMENT,
+    "user_id" INTEGER REFERENCES "auth_user" ("id") ON DELETE CASCADE  ,
+    "created_on" TIMESTAMP,
+    "service" CHAR(512),
+    "ticket" CHAR(512),
+    "renew" CHAR(1)
+);
+success!
+timestamp: 2017-07-12T12:10:15.160481
+CREATE TABLE "Device"(
+    "id" INTEGER PRIMARY KEY AUTOINCREMENT,
+    "device_id" CHAR(512),
+    "device_name" CHAR(512),
+    "model" CHAR(512)
+);
+success!
+timestamp: 2017-07-12T12:29:31.418715
+CREATE TABLE "User_Device"(
+    "id" INTEGER PRIMARY KEY AUTOINCREMENT,
+    "user_ref_id" INTEGER REFERENCES "auth_user" ("id") ON DELETE CASCADE  ,
+    "device_ref_id" INTEGER REFERENCES "Device" ("id") ON DELETE CASCADE  
+);
+success!
+timestamp: 2017-07-12T12:29:31.502219
+CREATE TABLE "Control_Instruction"(
+    "id" INTEGER PRIMARY KEY AUTOINCREMENT,
+    "device_ref_id" INTEGER REFERENCES "Device" ("id") ON DELETE CASCADE  ,
+    "volt_flag" CHAR(512),
+    "curr_flag" CHAR(512),
+    "freq_flag" CHAR(512),
+    "onoff_flag" CHAR(1),
+    "off_flag" CHAR(1),
+    "rot_flag" CHAR(512),
+    "dir_flag" CHAR(512)
+);
+success!
+timestamp: 2017-07-15T14:41:42.478418
+CREATE TABLE `auth_user`(
+    `id` INT AUTO_INCREMENT NOT NULL,
+    `first_name` VARCHAR(128),
+    `last_name` VARCHAR(128),
+    `email` VARCHAR(512),
+    `password` VARCHAR(512),
+    `registration_key` VARCHAR(512),
+    `reset_password_key` VARCHAR(512),
+    `registration_id` VARCHAR(512),
+    PRIMARY KEY (`id`)
+) ENGINE=InnoDB CHARACTER SET utf8;
+success!
+timestamp: 2017-07-15T14:41:42.753603
+CREATE TABLE `auth_group`(
+    `id` INT AUTO_INCREMENT NOT NULL,
+    `role` VARCHAR(512),
+    `description` LONGTEXT,
+    PRIMARY KEY (`id`)
+) ENGINE=InnoDB CHARACTER SET utf8;
+success!
+timestamp: 2017-07-15T14:41:42.980081
+CREATE TABLE `auth_membership`(
+    `id` INT AUTO_INCREMENT NOT NULL,
+    `user_id` INT  , INDEX `user_id__idx` (`user_id`), FOREIGN KEY (`user_id`) REFERENCES `auth_user` (`id`) ON DELETE CASCADE,
+    `group_id` INT  , INDEX `group_id__idx` (`group_id`), FOREIGN KEY (`group_id`) REFERENCES `auth_group` (`id`) ON DELETE CASCADE,
+    PRIMARY KEY (`id`)
+) ENGINE=InnoDB CHARACTER SET utf8;
+success!
+timestamp: 2017-07-15T14:41:43.263614
+CREATE TABLE `auth_permission`(
+    `id` INT AUTO_INCREMENT NOT NULL,
+    `group_id` INT  , INDEX `group_id__idx` (`group_id`), FOREIGN KEY (`group_id`) REFERENCES `auth_group` (`id`) ON DELETE CASCADE,
+    `name` VARCHAR(512),
+    `table_name` VARCHAR(512),
+    `record_id` INTEGER,
+    PRIMARY KEY (`id`)
+) ENGINE=InnoDB CHARACTER SET utf8;
+success!
+timestamp: 2017-07-15T14:41:43.506420
+CREATE TABLE `auth_event`(
+    `id` INT AUTO_INCREMENT NOT NULL,
+    `time_stamp` DATETIME,
+    `client_ip` VARCHAR(512),
+    `user_id` INT  , INDEX `user_id__idx` (`user_id`), FOREIGN KEY (`user_id`) REFERENCES `auth_user` (`id`) ON DELETE CASCADE,
+    `origin` VARCHAR(512),
+    `description` LONGTEXT,
+    PRIMARY KEY (`id`)
+) ENGINE=InnoDB CHARACTER SET utf8;
+success!
+timestamp: 2017-07-15T14:41:43.757976
+CREATE TABLE `auth_cas`(
+    `id` INT AUTO_INCREMENT NOT NULL,
+    `user_id` INT  , INDEX `user_id__idx` (`user_id`), FOREIGN KEY (`user_id`) REFERENCES `auth_user` (`id`) ON DELETE CASCADE,
+    `created_on` DATETIME,
+    `service` VARCHAR(512),
+    `ticket` VARCHAR(512),
+    `renew` CHAR(1),
+    PRIMARY KEY (`id`)
+) ENGINE=InnoDB CHARACTER SET utf8;
+success!
+timestamp: 2017-07-15T14:41:43.975301
+CREATE TABLE `Device`(
+    `id` INT AUTO_INCREMENT NOT NULL,
+    `device_id` VARCHAR(512),
+    `device_name` VARCHAR(512),
+    `model` VARCHAR(512),
+    `location` VARCHAR(512),
+    PRIMARY KEY (`id`)
+) ENGINE=InnoDB CHARACTER SET utf8;
+success!
+timestamp: 2017-07-15T14:41:44.159381
+CREATE TABLE `User_Device`(
+    `id` INT AUTO_INCREMENT NOT NULL,
+    `user_ref_id` INT  , INDEX `user_ref_id__idx` (`user_ref_id`), FOREIGN KEY (`user_ref_id`) REFERENCES `auth_user` (`id`) ON DELETE CASCADE,
+    `device_ref_id` INT  , INDEX `device_ref_id__idx` (`device_ref_id`), FOREIGN KEY (`device_ref_id`) REFERENCES `Device` (`id`) ON DELETE CASCADE,
+    PRIMARY KEY (`id`)
+) ENGINE=InnoDB CHARACTER SET utf8;
+success!
+timestamp: 2017-07-15T14:41:44.393300
+CREATE TABLE `Control_Instruction`(
+    `id` INT AUTO_INCREMENT NOT NULL,
+    `device_ref_id` INT  , INDEX `device_ref_id__idx` (`device_ref_id`), FOREIGN KEY (`device_ref_id`) REFERENCES `Device` (`id`) ON DELETE CASCADE,
+    `volt_flag` VARCHAR(512),
+    `curr_flag` VARCHAR(512),
+    `freq_flag` VARCHAR(512),
+    `onoff_flag` CHAR(1),
+    `off_flag` CHAR(1),
+    `rot_flag` VARCHAR(512),
+    `dir_flag` VARCHAR(512),
+    PRIMARY KEY (`id`)
+) ENGINE=InnoDB CHARACTER SET utf8;
+success!
+timestamp: 2017-07-15T15:50:40.542918
+ALTER TABLE `auth_user` ADD `username` VARCHAR(128);
+success!
+success!
