@@ -1,0 +1,60 @@
+{{left_sidebar_enabled,right_sidebar_enabled=False,('message' in globals())}}
+{{extend 'layout.html'}}
+{{block center}}
+	
+{{if form:}}
+<div class="panel">
+    <div class="panel-body row">
+        <div class="col-md-6 col-sm-12">
+            {{=form}}
+        </div>
+    </div>
+</div>
+{{pass}}
+
+<!--
+
+
+<form action="" method="post">
+                <div class="form-group">
+                    <label for="volt">Voltage</label>
+                    <div class="input-group">
+                        <input type="text" class="form-control" maxlength="10" name="volt" id="volt" placeholder="{{#=states[0][1]}}"/>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="curr">Current</label>
+                    <div class="input-group">
+                        <input type="text" class="form-control" maxlength="10" name="curr" id="curr" placeholder="{{#=states[0][2]}}"/>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="freq">Frequency</label>
+                    <div class="input-group">
+                        <input type="text" class="form-control" maxlength="10" name="freq" id="freq" placeholder="{{#=states[0][3]}}"/>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="onoff">On/Off</label>
+                    <div class="input-group">
+                        <input type="text" class="form-control" maxlength="10" name="onoff" id="onoff" placeholder="{{#=states[0][4]}}"/>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="rot">Rotation</label>
+                    <div class="input-group">
+                        <input type="text" class="form-control" maxlength="10" name="rot" id="rot" placeholder="{{#=states[0][6]}}"/>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="dir">Direction</label>
+                    <div class="input-group">
+                        <input type="text" class="form-control" maxlength="10" name="dir" id="dir" placeholder="{{#=states[0][7]}}"/>
+                    </div>
+                </div>
+                <input type="submit" name="update" id="submit" value="update" class="btn btn-info pull-left" />
+			</form>
+
+-->
+
+{{end}}

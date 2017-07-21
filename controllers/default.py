@@ -3,7 +3,7 @@ def index():
         redirect(URL('user/login'))
 
     user_name = "%(username)s" % auth.user
-    user_devices =db.executesql("SELECT Device.device_id, Device.device_name, Device.model, Device.location, \
+    user_devices =db.executesql("SELECT Device.id, Device.device_id, Device.device_name, Device.model, Device.location, \
             User_Device.user_ref_id FROM Device INNER JOIN (auth_user INNER JOIN User_Device \
             ON auth_user.id = User_Device.user_ref_id) ON Device.id = User_Device.device_ref_id \
             WHERE (((auth_user.username)=%s))", user_name)
@@ -35,7 +35,42 @@ def add_device():
     return dict()
 
 
+@auth.requires_login()
+def dev_control():
+    if request.args(0, cast=int):
+        #device_ref_id = request.args(0, cast=int)
+        id = db.executesql("SELECT id FROM Control_Instruction WHERE device_ref_id = %s", request.args[0])
+        if id:
+            db.Control_Instruction.id.readable = db.Control_Instruction.id.writable = False
+            db.Control_Instruction.device_ref_id.readable = db.Control_Instruction.device_ref_id.writable = False
+            db.Control_Instruction.off_flag.readable = db.Control_Instruction.off_flag.writable = False
+            form = SQLFORM(db.Control_Instruction, id[0][0], showid=False).process(next='index')
+            return dict(form = form)
+        else:
+            return None
 
+
+def get_instruction():
+    if request.vars.deviceid:
+        device_id = request.vars.deviceid
+        device_info = db.executesql("SELECT Control_Instruction.volt_flag, Control_Instruction.curr_flag, \
+            Control_Instruction.freq_flag, Control_Instruction.onoff_flag, Control_Instruction.rot_flag, \
+            Control_Instruction.dir_flag FROM Control_Instruction INNER JOIN (Device) \
+            ON (Device.id = Control_Instruction.device_ref_id) WHERE Device.device_id=%s", device_id)
+
+        jsonlst = []
+        for i in device_info:
+            volt = i[0]
+            curr = i[1]
+            freq = i[2]
+            onof = i[3]
+            rota = i[4]
+            dire = i[5]
+            record = {"voltage" : volt, "current" : curr, "frquency" : freq, "onoff" : onof, "rotation" : rota, "direction": dire}
+            jsonlst.append(record)
+        return dict(device_info = jsonlst)
+    else:
+        return None
 
 def user():
     """
