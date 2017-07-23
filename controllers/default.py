@@ -3,7 +3,7 @@ def index():
         redirect(URL('user/login'))
 
     user_name = "%(username)s" % auth.user
-    user_devices =db.executesql("SELECT Device.id, Device.device_id, Device.device_name, Device.model, Device.location, \
+    user_devices = db.executesql("SELECT Device.id, Device.device_id, Device.device_name, Device.model, Device.location, \
             User_Device.user_ref_id FROM Device INNER JOIN (auth_user INNER JOIN User_Device \
             ON auth_user.id = User_Device.user_ref_id) ON Device.id = User_Device.device_ref_id \
             WHERE (((auth_user.username)=%s))", user_name)
@@ -55,7 +55,7 @@ def get_instruction():
         device_id = request.vars.deviceid
         device_info = db.executesql("SELECT Control_Instruction.volt_flag, Control_Instruction.curr_flag, \
             Control_Instruction.freq_flag, Control_Instruction.onoff_flag, Control_Instruction.rot_flag, \
-            Control_Instruction.dir_flag FROM Control_Instruction INNER JOIN (Device) \
+            Direction.direction_type FROM Device INNER JOIN (Control_Instruction INNER JOIN Direction ON Direction.id = Control_Instruction.dir_flag) \
             ON (Device.id = Control_Instruction.device_ref_id) WHERE Device.device_id=%s", device_id)
 
         jsonlst = []

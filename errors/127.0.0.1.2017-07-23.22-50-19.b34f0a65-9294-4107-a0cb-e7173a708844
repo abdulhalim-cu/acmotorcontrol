@@ -1,0 +1,1160 @@
+(dp1
+S'output'
+p2
+S'<class \'gluon.contrib.pymysql.err.ProgrammingError\'> (1064, u"You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near \'list:reference Direction)\' at line 1")'
+p3
+sS'layer'
+p4
+S'/home/abdulhalim/Desktop/web2py/applications/motor/models/db1.py'
+p5
+sS'code'
+p6
+S'<code object <module> at 0x7f394c40dbb0, file "/home/abdulhalim/Desktop/web2py/applications/motor/models/db1.py", line 3>'
+p7
+sS'snapshot'
+p8
+(dp9
+S'exception'
+p10
+(dp11
+S'__module__'
+p12
+S"'gluon.contrib.pymysql.err'"
+p13
+sS'__getslice__'
+p14
+S"<method-wrapper '__getslice__' of ProgrammingError object>"
+p15
+sS'__str__'
+p16
+S"<method-wrapper '__str__' of ProgrammingError object>"
+p17
+sS'__reduce__'
+p18
+S'<built-in method __reduce__ of ProgrammingError object>'
+p19
+sS'__dict__'
+p20
+S'{}'
+p21
+sS'__sizeof__'
+p22
+S'<built-in method __sizeof__ of ProgrammingError object>'
+p23
+sS'__weakref__'
+p24
+S'None'
+p25
+sS'message'
+p26
+S"''"
+p27
+sS'__init__'
+p28
+S"<method-wrapper '__init__' of ProgrammingError object>"
+p29
+sS'__setattr__'
+p30
+S"<method-wrapper '__setattr__' of ProgrammingError object>"
+p31
+sS'__reduce_ex__'
+p32
+S'<built-in method __reduce_ex__ of ProgrammingError object>'
+p33
+sS'__new__'
+p34
+S'<built-in method __new__ of type object>'
+p35
+sS'__format__'
+p36
+S'<built-in method __format__ of ProgrammingError object>'
+p37
+sS'__class__'
+p38
+S"<class 'gluon.contrib.pymysql.err.ProgrammingError'>"
+p39
+sS'__doc__'
+p40
+S"'Exception raised for programming errors, e.g. ta...t, wrong number\\n    of parameters specified, etc.'"
+p41
+sS'__getitem__'
+p42
+S"<method-wrapper '__getitem__' of ProgrammingError object>"
+p43
+sS'__setstate__'
+p44
+S'<built-in method __setstate__ of ProgrammingError object>'
+p45
+sS'__getattribute__'
+p46
+S"<method-wrapper '__getattribute__' of ProgrammingError object>"
+p47
+sS'args'
+p48
+S'(1064, u"You have an error in your SQL syntax; check th...o use near \'list:reference Direction)\' at line 1")'
+p49
+sS'__subclasshook__'
+p50
+S'<built-in method __subclasshook__ of type object>'
+p51
+sS'__unicode__'
+p52
+S'<built-in method __unicode__ of ProgrammingError object>'
+p53
+sS'__delattr__'
+p54
+S"<method-wrapper '__delattr__' of ProgrammingError object>"
+p55
+sS'__repr__'
+p56
+S"<method-wrapper '__repr__' of ProgrammingError object>"
+p57
+sS'__hash__'
+p58
+S"<method-wrapper '__hash__' of ProgrammingError object>"
+p59
+ssS'evalue'
+p60
+S'(1064, u"You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near \'list:reference Direction)\' at line 1")'
+p61
+sS'request'
+p62
+cgluon.html
+XML_unpickle
+p63
+(S's\x02^\x00\x00<div><table><tr><td style="font-weight:bold;vertical-align:top;">ajax</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">application</td><td style="vertical-align:top;">:</td><td><div>motor</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">args</td><td style="vertical-align:top;">:</td><td><div><table></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">cid</td><td style="vertical-align:top;">:</td><td><div>None</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">client</td><td style="vertical-align:top;">:</td><td><div>127.0.0.1</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">controller</td><td style="vertical-align:top;">:</td><td><div>appadmin</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">cookies</td><td style="vertical-align:top;">:</td><td><div><table><tr><td style="font-weight:bold;vertical-align:top;">session_id_admin</td><td style="vertical-align:top;">:</td><td><div>127.0.0.1-52b656da-bf9c-4b21-b54b-91d4eecccc76<table><tr><td style="font-weight:bold;vertical-align:top;">comment</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">domain</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">expires</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">httponly</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">max-age</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">path</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">secure</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">version</td><td style="vertical-align:top;">:</td><td><div></div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_id_motor</td><td style="vertical-align:top;">:</td><td><div>127.0.0.1-8c0f46e0-2bdd-43a3-bdde-04e7c86a2a96<table><tr><td style="font-weight:bold;vertical-align:top;">comment</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">domain</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">expires</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">httponly</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">max-age</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">path</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">secure</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">version</td><td style="vertical-align:top;">:</td><td><div></div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_id_welcome</td><td style="vertical-align:top;">:</td><td><div>127.0.0.1-697745e0-d4f2-4e94-bb12-e88efd38e7b8<table><tr><td style="font-weight:bold;vertical-align:top;">comment</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">domain</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">expires</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">httponly</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">max-age</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">path</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">secure</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">version</td><td style="vertical-align:top;">:</td><td><div></div></td></tr></table></div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">env</td><td style="vertical-align:top;">:</td><td><div><table><tr><td style="font-weight:bold;vertical-align:top;">HTTP_ACCEPT</td><td style="vertical-align:top;">:</td><td><div>text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">HTTP_ACCEPT_ENCODING</td><td style="vertical-align:top;">:</td><td><div>gzip, deflate, br</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">HTTP_ACCEPT_LANGUAGE</td><td style="vertical-align:top;">:</td><td><div>en-GB,en-US;q=0.8,en;q=0.6</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">HTTP_CACHE_CONTROL</td><td style="vertical-align:top;">:</td><td><div>max-age=0</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">HTTP_CONNECTION</td><td style="vertical-align:top;">:</td><td><div>keep-alive</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">HTTP_COOKIE</td><td style="vertical-align:top;">:</td><td><div>session_id_welcome=127.0.0.1-697745e0-d4f2-4e94-bb12-e88efd38e7b8; session_id_motor=127.0.0.1-8c0f46e0-2bdd-43a3-bdde-04e7c86a2a96; session_id_admin=127.0.0.1-52b656da-bf9c-4b21-b54b-91d4eecccc76</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">HTTP_HOST</td><td style="vertical-align:top;">:</td><td><div>127.0.0.1:8000</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">HTTP_REFERER</td><td style="vertical-align:top;">:</td><td><div>http://127.0.0.1:8000/motor/appadmin/insert/db/Control_Instruction</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">HTTP_UPGRADE_INSECURE_REQUESTS</td><td style="vertical-align:top;">:</td><td><div>1</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">HTTP_USER_AGENT</td><td style="vertical-align:top;">:</td><td><div>Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">PATH_INFO</td><td style="vertical-align:top;">:</td><td><div>/motor/appadmin/index</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">QUERY_STRING</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">REMOTE_ADDR</td><td style="vertical-align:top;">:</td><td><div>127.0.0.1</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">REMOTE_PORT</td><td style="vertical-align:top;">:</td><td><div>41736</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">REQUEST_METHOD</td><td style="vertical-align:top;">:</td><td><div>GET</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">SCRIPT_NAME</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">SERVER_NAME</td><td style="vertical-align:top;">:</td><td><div>linux</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">SERVER_PORT</td><td style="vertical-align:top;">:</td><td><div>8000</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">SERVER_PROTOCOL</td><td style="vertical-align:top;">:</td><td><div>HTTP/1.1</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">SERVER_SOFTWARE</td><td style="vertical-align:top;">:</td><td><div>Rocket 1.2.6</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">app_folders</td><td style="vertical-align:top;">:</td><td><div>set([&#x27;/home/abdulhalim/Desktop/web2py/applications/motor/&#x27;, &#x27;/home/abdulhalim/Desktop/web2py/applications/welcome/&#x27;, &#x27;/home/abdulhalim/Desktop/web2py/applications/admin/&#x27;])</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">applications_parent</td><td style="vertical-align:top;">:</td><td><div>/home/abdulhalim/Desktop/web2py</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">cmd_args</td><td style="vertical-align:top;">:</td><td><div><table></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">cmd_options</td><td style="vertical-align:top;">:</td><td><div>&lt;Values at 0x7f39678dd320: {&#x27;verbose&#x27;: False, &#x27;ip&#x27;: &#x27;127.0.0.1&#x27;, &#x27;debuglevel&#x27;: 30, &#x27;with_scheduler&#x27;: False, &#x27;shutdown_timeout&#x27;: 5, &#x27;taskbar&#x27;: False, &#x27;with_coverage&#x27;: False, &#x27;pid_filename&#x27;: &#x27;httpserver.pid&#x27;, &#x27;maxthreads&#x27;: None, &#x27;softcron&#x27;: False, &#x27;server_name&#x27;: &#x27;linux&#x27;, &#x27;bpython&#x27;: False, &#x27;nogui&#x27;: False, &#x27;port&#x27;: 8000, &#x27;print_errors&#x27;: False, &#x27;extcron&#x27;: False, &#x27;runcron&#x27;: False, &#x27;run_system_tests&#x27;: False, &#x27;test&#x27;: None, &#x27;folder&#x27;: &#x27;/home/abdulhalim/Desktop/web2py&#x27;, &#x27;config&#x27;: &#x27;&#x27;, &#x27;minthreads&#x27;: None, &#x27;shell&#x27;: None, &#x27;run&#x27;: &#x27;&#x27;, &#x27;log_filename&#x27;: &#x27;httpserver.log&#x27;, &#x27;profiler_dir&#x27;: None, &#x27;args&#x27;: [&#x27;&#x27;], &#x27;socket_timeout&#x27;: 5, &#x27;ssl_ca_certificate&#x27;: None, &#x27;scheduler&#x27;: None, &#x27;interfaces&#x27;: None, &#x27;ssl_private_key&#x27;: &#x27;&#x27;, &#x27;gae&#x27;: None, &#x27;password&#x27;: &#x27;******&#x27;, &#x27;request_queue_size&#x27;: 5, &#x27;ssl_certificate&#x27;: &#x27;&#x27;, &#x27;cronjob&#x27;: False, &#x27;numthreads&#x27;: None, &#x27;quiet&#x27;: False, &#x27;import_models&#x27;: False, &#x27;timeout&#x27;: 10, &#x27;plain&#x27;: False, &#x27;nobanner&#x27;: False}&gt;</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">db_sessions</td><td style="vertical-align:top;">:</td><td><div>set([])</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">debugging</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">gluon_parent</td><td style="vertical-align:top;">:</td><td><div>/home/abdulhalim/Desktop/web2py</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">http_accept</td><td style="vertical-align:top;">:</td><td><div>text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">http_accept_encoding</td><td style="vertical-align:top;">:</td><td><div>gzip, deflate, br</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">http_accept_language</td><td style="vertical-align:top;">:</td><td><div>en-GB,en-US;q=0.8,en;q=0.6</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">http_cache_control</td><td style="vertical-align:top;">:</td><td><div>max-age=0</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">http_connection</td><td style="vertical-align:top;">:</td><td><div>keep-alive</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">http_cookie</td><td style="vertical-align:top;">:</td><td><div>session_id_welcome=127.0.0.1-697745e0-d4f2-4e94-bb12-e88efd38e7b8; session_id_motor=127.0.0.1-8c0f46e0-2bdd-43a3-bdde-04e7c86a2a96; session_id_admin=127.0.0.1-52b656da-bf9c-4b21-b54b-91d4eecccc76</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">http_host</td><td style="vertical-align:top;">:</td><td><div>127.0.0.1:8000</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">http_referer</td><td style="vertical-align:top;">:</td><td><div>http://127.0.0.1:8000/motor/appadmin/insert/db/Control_Instruction</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">http_upgrade_insecure_requests</td><td style="vertical-align:top;">:</td><td><div>1</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">http_user_agent</td><td style="vertical-align:top;">:</td><td><div>Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">is_jython</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">is_py2</td><td style="vertical-align:top;">:</td><td><div>True</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">is_pypy</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">is_source</td><td style="vertical-align:top;">:</td><td><div>True</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">local_hosts</td><td style="vertical-align:top;">:</td><td><div><table><tr><td><div>::1</div></td></tr><tr><td><div>127.0.1.1</div></td></tr><tr><td><div>::ffff:127.0.0.1</div></td></tr><tr><td><div>127.0.0.1</div></td></tr><tr><td><div>linux</div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">path_info</td><td style="vertical-align:top;">:</td><td><div>/motor/appadmin/index</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">query_string</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">remote_addr</td><td style="vertical-align:top;">:</td><td><div>127.0.0.1</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">remote_port</td><td style="vertical-align:top;">:</td><td><div>41736</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">request_method</td><td style="vertical-align:top;">:</td><td><div>GET</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">request_uri</td><td style="vertical-align:top;">:</td><td><div>/motor/appadmin/index</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">script_name</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">server_name</td><td style="vertical-align:top;">:</td><td><div>linux</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">server_port</td><td style="vertical-align:top;">:</td><td><div>8000</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">server_protocol</td><td style="vertical-align:top;">:</td><td><div>HTTP/1.1</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">server_software</td><td style="vertical-align:top;">:</td><td><div>Rocket 1.2.6</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">web2py_path</td><td style="vertical-align:top;">:</td><td><div>/home/abdulhalim/Desktop/web2py</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">web2py_version</td><td style="vertical-align:top;">:</td><td><div>2.15.1-stable+timestamp.2017.07.10.21.25.06</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi.errors</td><td style="vertical-align:top;">:</td><td><div>&lt;open file &#x27;&lt;stderr&gt;&#x27;, mode &#x27;w&#x27; at 0x7f396b75b1e0&gt;</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi.file_wrapper</td><td style="vertical-align:top;">:</td><td><div>&lt;class wsgiref.util.FileWrapper at 0x7f3967965f58&gt;</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi.input</td><td style="vertical-align:top;">:</td><td><div>&lt;socket._fileobject object at 0x7f396769c3d0&gt;</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi.multiprocess</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi.multithread</td><td style="vertical-align:top;">:</td><td><div>True</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi.run_once</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi.url_scheme</td><td style="vertical-align:top;">:</td><td><div>http</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi.version</td><td style="vertical-align:top;">:</td><td><div><table><tr><td><div>1</div></td></tr><tr><td><div>0</div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi_errors</td><td style="vertical-align:top;">:</td><td><div>&lt;open file &#x27;&lt;stderr&gt;&#x27;, mode &#x27;w&#x27; at 0x7f396b75b1e0&gt;</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi_file_wrapper</td><td style="vertical-align:top;">:</td><td><div>&lt;class wsgiref.util.FileWrapper at 0x7f3967965f58&gt;</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi_input</td><td style="vertical-align:top;">:</td><td><div>&lt;socket._fileobject object at 0x7f396769c3d0&gt;</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi_multiprocess</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi_multithread</td><td style="vertical-align:top;">:</td><td><div>True</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi_run_once</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi_url_scheme</td><td style="vertical-align:top;">:</td><td><div>http</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi_version</td><td style="vertical-align:top;">:</td><td><div><table><tr><td><div>1</div></td></tr><tr><td><div>0</div></td></tr></table></div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">extension</td><td style="vertical-align:top;">:</td><td><div>html</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">folder</td><td style="vertical-align:top;">:</td><td><div>/home/abdulhalim/Desktop/web2py/applications/motor/</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">function</td><td style="vertical-align:top;">:</td><td><div>index</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">global_settings</td><td style="vertical-align:top;">:</td><td><div><table><tr><td style="font-weight:bold;vertical-align:top;">app_folders</td><td style="vertical-align:top;">:</td><td><div>set([&#x27;/home/abdulhalim/Desktop/web2py/applications/motor/&#x27;, &#x27;/home/abdulhalim/Desktop/web2py/applications/welcome/&#x27;, &#x27;/home/abdulhalim/Desktop/web2py/applications/admin/&#x27;])</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">applications_parent</td><td style="vertical-align:top;">:</td><td><div>/home/abdulhalim/Desktop/web2py</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">cmd_args</td><td style="vertical-align:top;">:</td><td><div><table></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">cmd_options</td><td style="vertical-align:top;">:</td><td><div>&lt;Values at 0x7f39678dd320: {&#x27;verbose&#x27;: False, &#x27;ip&#x27;: &#x27;127.0.0.1&#x27;, &#x27;debuglevel&#x27;: 30, &#x27;with_scheduler&#x27;: False, &#x27;shutdown_timeout&#x27;: 5, &#x27;taskbar&#x27;: False, &#x27;with_coverage&#x27;: False, &#x27;pid_filename&#x27;: &#x27;httpserver.pid&#x27;, &#x27;maxthreads&#x27;: None, &#x27;softcron&#x27;: False, &#x27;server_name&#x27;: &#x27;linux&#x27;, &#x27;bpython&#x27;: False, &#x27;nogui&#x27;: False, &#x27;port&#x27;: 8000, &#x27;print_errors&#x27;: False, &#x27;extcron&#x27;: False, &#x27;runcron&#x27;: False, &#x27;run_system_tests&#x27;: False, &#x27;test&#x27;: None, &#x27;folder&#x27;: &#x27;/home/abdulhalim/Desktop/web2py&#x27;, &#x27;config&#x27;: &#x27;&#x27;, &#x27;minthreads&#x27;: None, &#x27;shell&#x27;: None, &#x27;run&#x27;: &#x27;&#x27;, &#x27;log_filename&#x27;: &#x27;httpserver.log&#x27;, &#x27;profiler_dir&#x27;: None, &#x27;args&#x27;: [&#x27;&#x27;], &#x27;socket_timeout&#x27;: 5, &#x27;ssl_ca_certificate&#x27;: None, &#x27;scheduler&#x27;: None, &#x27;interfaces&#x27;: None, &#x27;ssl_private_key&#x27;: &#x27;&#x27;, &#x27;gae&#x27;: None, &#x27;password&#x27;: &#x27;******&#x27;, &#x27;request_queue_size&#x27;: 5, &#x27;ssl_certificate&#x27;: &#x27;&#x27;, &#x27;cronjob&#x27;: False, &#x27;numthreads&#x27;: None, &#x27;quiet&#x27;: False, &#x27;import_models&#x27;: False, &#x27;timeout&#x27;: 10, &#x27;plain&#x27;: False, &#x27;nobanner&#x27;: False}&gt;</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">db_sessions</td><td style="vertical-align:top;">:</td><td><div>set([])</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">debugging</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">gluon_parent</td><td style="vertical-align:top;">:</td><td><div>/home/abdulhalim/Desktop/web2py</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">is_jython</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">is_py2</td><td style="vertical-align:top;">:</td><td><div>True</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">is_pypy</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">is_source</td><td style="vertical-align:top;">:</td><td><div>True</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">local_hosts</td><td style="vertical-align:top;">:</td><td><div><table><tr><td><div>::1</div></td></tr><tr><td><div>127.0.1.1</div></td></tr><tr><td><div>::ffff:127.0.0.1</div></td></tr><tr><td><div>127.0.0.1</div></td></tr><tr><td><div>linux</div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">web2py_version</td><td style="vertical-align:top;">:</td><td><div>2.15.1-stable+timestamp.2017.07.10.21.25.06</div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">is_https</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">is_local</td><td style="vertical-align:top;">:</td><td><div>True</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">is_restful</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">is_scheduler</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">is_shell</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">now</td><td style="vertical-align:top;">:</td><td><div>datetime.datetime(2017, 7, 23, 22, 50, 19, 879722)</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">raw_args</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">raw_extension</td><td style="vertical-align:top;">:</td><td><div>None</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">url</td><td style="vertical-align:top;">:</td><td><div>/motor/appadmin/index</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">utcnow</td><td style="vertical-align:top;">:</td><td><div>datetime.datetime(2017, 7, 23, 16, 50, 19, 879760)</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi</td><td style="vertical-align:top;">:</td><td><div>&lt;gluon.main.LazyWSGI object at 0x7f394c579d90&gt;</div></td></tr></table></div>'
+tRp64
+sS'frames'
+p65
+(lp66
+(dp67
+S'file'
+p68
+S'/home/abdulhalim/Desktop/web2py/gluon/restricted.py'
+p69
+sS'dump'
+p70
+(dp71
+S'environment'
+p72
+S"{'A': <class 'gluon.html.A'>, 'ANY_OF': <class 'gluon.validators.ANY_OF'>, 'ASSIGNJS': <function ASSIGNJS>, 'AppConfig': <function AppConfig>, 'Auth': <class 'gluon.tools.Auth'>, 'B': <class 'gluon.html.B'>, 'BEAUTIFY': <class 'gluon.html.BEAUTIFY'>, 'BODY': <class 'gluon.html.BODY'>, 'BR': <class 'gluon.html.BR'>, 'BUTTON': <class 'gluon.html.BUTTON'>, ...}"
+p73
+sS'ccode'
+p74
+S'<code object <module> at 0x7f394c40dbb0, file "/...web2py/applications/motor/models/db1.py", line 3>'
+p75
+ssS'lnum'
+p76
+I219
+sS'lines'
+p77
+(dp78
+I214
+S'    if environment is None:'
+p79
+sI215
+S'        environment = {}'
+p80
+sI216
+S"    environment['__file__'] = layer"
+p81
+sI217
+S"    environment['__name__'] = '__restricted__'"
+p82
+sI218
+S'    try:'
+p83
+sI219
+S'        exec(ccode, environment)'
+p84
+sI220
+S'    except HTTP:'
+p85
+sI221
+S'        raise'
+p86
+sI222
+S'    except RestrictedError:'
+p87
+sI223
+S'        # do not encapsulate (obfuscate) the original RestrictedError'
+p88
+ssS'call'
+p89
+S'(ccode=<code object <module> at 0x7f394c40dbb0, file "/...web2py/applications/motor/models/db1.py", line 3>, environment={\'A\': <class \'gluon.html.A\'>, \'ANY_OF\': <class \'gluon.validators.ANY_OF\'>, \'ASSIGNJS\': <function ASSIGNJS>, \'AppConfig\': <function AppConfig>, \'Auth\': <class \'gluon.tools.Auth\'>, \'B\': <class \'gluon.html.B\'>, \'BEAUTIFY\': <class \'gluon.html.BEAUTIFY\'>, \'BODY\': <class \'gluon.html.BODY\'>, \'BR\': <class \'gluon.html.BR\'>, \'BUTTON\': <class \'gluon.html.BUTTON\'>, ...}, layer=\'/home/abdulhalim/Desktop/web2py/applications/motor/models/db1.py\')'
+p90
+sS'func'
+p91
+S'restricted'
+p92
+sa(dp93
+g68
+S'/home/abdulhalim/Desktop/web2py/applications/motor/models/db1.py'
+p94
+sg70
+(dp95
+S'Field'
+p96
+S"<class 'pydal.objects.Field'>"
+p97
+sS'label'
+p98
+S'undefined'
+p99
+ssg76
+I29
+sg77
+(dp100
+I20
+S''
+sI21
+S"db.define_table('Control_Instruction',"
+p101
+sI22
+S"                Field('device_ref_id', 'reference Device', label='Device ID'),"
+p102
+sI23
+S"                Field('volt_flag', 'string', label='Voltage'),"
+p103
+sI24
+S"                Field('curr_flag', 'string', label='Current'),"
+p104
+sI25
+S"                Field('freq_flag', 'string', label='Frequency'),"
+p105
+sI26
+S"                Field('onoff_flag', 'boolean', label='ON/OFF'),"
+p106
+sI27
+S"                Field('off_flag', 'boolean', label='Off'),"
+p107
+sI28
+S"                Field('rot_flag', 'string', label='Rotation'),"
+p108
+sI29
+S"                Field('dir_flag', 'string', 'list:reference Direction', label = 'Direction'))"
+p109
+ssg89
+S'()'
+p110
+sg91
+S'<module>'
+p111
+sa(dp112
+g68
+S'/home/abdulhalim/Desktop/web2py/gluon/packages/dal/pydal/base.py'
+p113
+sg70
+(dp114
+S'fields'
+p115
+S'(<pydal.objects.Field object>, <pydal.objects.Field object>, <pydal.objects.Field object>, <pydal.objects.Field object>, <pydal.objects.Field object>, <pydal.objects.Field object>, <pydal.objects.Field object>, <pydal.objects.Field object>)'
+p116
+sS'self'
+p117
+S'<DAL uri="mysql:******@localhost/motor">'
+p118
+sS'args'
+p119
+g21
+sS'tablename'
+p120
+S"'Control_Instruction'"
+p121
+sS'table'
+p122
+g99
+sS'self.lazy_define_table'
+p123
+S'<bound method DAL.lazy_define_table of <DAL uri="mysql:******@localhost/motor">>'
+p124
+ssg76
+I587
+sg77
+(dp125
+I582
+S'                                  (tablename, invalid_args))'
+p126
+sI583
+S'        if self._lazy_tables and tablename not in self._LAZY_TABLES:'
+p127
+sI584
+S'            self._LAZY_TABLES[tablename] = (tablename, fields, args)'
+p128
+sI585
+S'            table = None'
+p129
+sI586
+S'        else:'
+p130
+sI587
+S'            table = self.lazy_define_table(tablename, *fields, **args)'
+p131
+sI588
+S'        if tablename not in self.tables:'
+p132
+sI589
+S'            self.tables.append(tablename)'
+p133
+sI590
+S'        return table'
+p134
+sI591
+S''
+ssg89
+S'(self=<DAL uri="mysql:******@localhost/motor">, tablename=\'Control_Instruction\', *fields=(<pydal.objects.Field object>, <pydal.objects.Field object>, <pydal.objects.Field object>, <pydal.objects.Field object>, <pydal.objects.Field object>, <pydal.objects.Field object>, <pydal.objects.Field object>, <pydal.objects.Field object>), **args={})'
+p135
+sg91
+S'define_table'
+p136
+sa(dp137
+g68
+S'/home/abdulhalim/Desktop/web2py/gluon/packages/dal/pydal/base.py'
+p138
+sg70
+(dp139
+S'polymodel'
+p140
+S'None'
+p141
+ssg76
+I621
+sg77
+(dp142
+I616
+S'            try:'
+p143
+sI617
+S'                GLOBAL_LOCKER.acquire()'
+p144
+sI618
+S'                self._adapter.create_table('
+p145
+sI619
+S'                    table, migrate=migrate,'
+p146
+sI620
+S'                    fake_migrate=fake_migrate,'
+p147
+sI621
+S'                    polymodel=polymodel)'
+p148
+sI622
+S'            finally:'
+p149
+sI623
+S'                GLOBAL_LOCKER.release()'
+p150
+sI624
+S'        else:'
+p151
+sI625
+S'            table._dbt = None'
+p152
+ssg89
+S'(self=<DAL uri="mysql:******@localhost/motor">, tablename=\'Control_Instruction\', *fields=(<pydal.objects.Field object>, <pydal.objects.Field object>, <pydal.objects.Field object>, <pydal.objects.Field object>, <pydal.objects.Field object>, <pydal.objects.Field object>, <pydal.objects.Field object>, <pydal.objects.Field object>), **args={})'
+p153
+sg91
+S'lazy_define_table'
+p154
+sa(dp155
+g68
+S'/home/abdulhalim/Desktop/web2py/gluon/packages/dal/pydal/adapters/base.py'
+p156
+sg70
+(dp157
+S'self'
+p158
+S'<pydal.adapters.mysql.MySQL object>'
+p159
+sS'args'
+p160
+S'(<Table Control_Instruction (id, device_ref_id, v..._flag, onoff_flag, off_flag, rot_flag, dir_flag)>,)'
+p161
+sS'self.migrator'
+p162
+S'<pydal.migrator.Migrator object>'
+p163
+sS'self.migrator.create_table'
+p164
+S'<bound method Migrator.create_table of <pydal.migrator.Migrator object>>'
+p165
+sS'kwargs'
+p166
+S"{'fake_migrate': False, 'migrate': True, 'polymodel': None}"
+p167
+ssg76
+I795
+sg77
+(dp168
+I790
+S''
+sI791
+S'    def bulk_insert(self, table, items):'
+p169
+sI792
+S'        return [self.insert(table, item) for item in items]'
+p170
+sI793
+S''
+sI794
+S'    def create_table(self, *args, **kwargs):'
+p171
+sI795
+S'        return self.migrator.create_table(*args, **kwargs)'
+p172
+sI796
+S''
+sI797
+S'    def _drop_table_cleanup(self, table):'
+p173
+sI798
+S'        super(SQLAdapter, self)._drop_table_cleanup(table)'
+p174
+sI799
+S'        if table._dbt:'
+p175
+ssg89
+S"(self=<pydal.adapters.mysql.MySQL object>, *args=(<Table Control_Instruction (id, device_ref_id, v..._flag, onoff_flag, off_flag, rot_flag, dir_flag)>,), **kwargs={'fake_migrate': False, 'migrate': True, 'polymodel': None})"
+p176
+sg91
+S'create_table'
+p177
+sa(dp178
+g68
+S'/home/abdulhalim/Desktop/web2py/gluon/packages/dal/pydal/migrator.py'
+p179
+sg70
+(dp180
+S'fake_migrate'
+p181
+S'False'
+p182
+ssg76
+I314
+sg77
+(dp183
+I309
+S'            if sql_fields != sql_fields_old:'
+p184
+sI310
+S'                self.migrate_table('
+p185
+sI311
+S'                    table,'
+p186
+sI312
+S'                    sql_fields, sql_fields_old,'
+p187
+sI313
+S'                    sql_fields_aux, None,'
+p188
+sI314
+S'                    fake_migrate=fake_migrate'
+p189
+sI315
+S'                    )'
+p190
+sI316
+S'        return query'
+p191
+sI317
+S''
+sI318
+S'    def _fix(self, item):'
+p192
+ssg89
+S'(self=<pydal.migrator.Migrator object>, table=<Table Control_Instruction (id, device_ref_id, v..._flag, onoff_flag, off_flag, rot_flag, dir_flag)>, migrate=True, fake_migrate=False, polymodel=None)'
+p193
+sg91
+g177
+sa(dp194
+g68
+S'/home/abdulhalim/Desktop/web2py/gluon/packages/dal/pydal/migrator.py'
+p195
+sg70
+(dp196
+S'self'
+p197
+S'<pydal.migrator.Migrator object>'
+p198
+sS'self.adapter.execute'
+p199
+S'<bound method MySQL.wrap of <pydal.adapters.mysql.MySQL object>>'
+p200
+sS'self.adapter'
+p201
+S'<pydal.adapters.mysql.MySQL object>'
+p202
+sS'sub_query'
+p203
+S"'ALTER TABLE `Control_Instruction` ADD `dir_flag__tmp` VARCHAR(list:reference Direction);'"
+p204
+ssg76
+I447
+sg77
+(dp205
+I448
+S'                        # Caveat: mysql, oracle and firebird'
+p206
+sI449
+S'                        # do not allow multiple alter table'
+p207
+sI450
+S'                        # in one transaction so we must commit'
+p208
+sI451
+S'                        # partial transactions and'
+p209
+sI442
+S'                    if fake_migrate:'
+p210
+sI443
+S'                        if db._adapter.commit_on_alter_table:'
+p211
+sI444
+S'                            self.save_dbt(table, sql_fields_current)'
+p212
+sI445
+S"                        self.log('faked!\\n', table)"
+p213
+sI446
+S'                    else:'
+p214
+sI447
+S'                        self.adapter.execute(sub_query)'
+p215
+ssg89
+S"(self=<pydal.migrator.Migrator object>, table=<Table Control_Instruction (id, device_ref_id, v..._flag, onoff_flag, off_flag, rot_flag, dir_flag)>, sql_fields={'curr_flag': {'length': 512, 'notnull': False, 'raw_rname': 'curr_flag', 'rname': '`curr_flag`', 'sortable': 4, 'sql': 'VARCHAR(512)', 'type': 'string', 'unique': False}, 'device_ref_id': {'length': 512, 'notnull': False, 'raw_rname': 'device_ref_id', 'rname': '`device_ref_id`', 'sortable': 2, 'sql': 'INT  , INDEX `device_ref_id__idx` (`device_ref_i...id`) REFERENCES `Device` (`id`) ON DELETE CASCADE', 'type': 'reference Device', 'unique': False}, 'dir_flag': {'length': 'list:reference Direction', 'notnull': False, 'raw_rname': 'dir_flag', 'rname': '`dir_flag`', 'sortable': 9, 'sql': 'VARCHAR(list:reference Direction)', 'type': 'string', 'unique': False}, 'freq_flag': {'length': 512, 'notnull': False, 'raw_rname': 'freq_flag', 'rname': '`freq_flag`', 'sortable': 5, 'sql': 'VARCHAR(512)', 'type': 'string', 'unique': False}, 'id': {'length': 512, 'notnull': False, 'raw_rname': 'id', 'rname': '`id`', 'sortable': 1, 'sql': 'INT AUTO_INCREMENT NOT NULL', 'type': 'id', 'unique': False}, 'off_flag': {'length': 512, 'notnull': False, 'raw_rname': 'off_flag', 'rname': '`off_flag`', 'sortable': 7, 'sql': 'CHAR(1)', 'type': 'boolean', 'unique': False}, 'onoff_flag': {'length': 512, 'notnull': False, 'raw_rname': 'onoff_flag', 'rname': '`onoff_flag`', 'sortable': 6, 'sql': 'CHAR(1)', 'type': 'boolean', 'unique': False}, 'rot_flag': {'length': 512, 'notnull': False, 'raw_rname': 'rot_flag', 'rname': '`rot_flag`', 'sortable': 8, 'sql': 'VARCHAR(512)', 'type': 'string', 'unique': False}, 'volt_flag': {'length': 512, 'notnull': False, 'raw_rname': 'volt_flag', 'rname': '`volt_flag`', 'sortable': 3, 'sql': 'VARCHAR(512)', 'type': 'string', 'unique': False}}, sql_fields_old={'curr_flag': {'length': 512, 'notnull': False, 'raw_rname': 'curr_flag', 'rname': '`curr_flag`', 'sortable': 4, 'sql': 'VARCHAR(512)', 'type': 'string', 'unique': False}, 'device_ref_id': {'length': 512, 'notnull': False, 'raw_rname': 'device_ref_id', 'rname': '`device_ref_id`', 'sortable': 2, 'sql': 'INT  , INDEX `device_ref_id__idx` (`device_ref_i...id`) REFERENCES `Device` (`id`) ON DELETE CASCADE', 'type': 'reference Device', 'unique': False}, 'dir_flag': {'length': 512, 'notnull': False, 'raw_rname': 'dir_flag', 'rname': '`dir_flag`', 'sortable': 9, 'sql': 'VARCHAR(512)', 'type': 'string', 'unique': False}, 'freq_flag': {'length': 512, 'notnull': False, 'raw_rname': 'freq_flag', 'rname': '`freq_flag`', 'sortable': 5, 'sql': 'VARCHAR(512)', 'type': 'string', 'unique': False}, 'id': {'length': 512, 'notnull': False, 'raw_rname': 'id', 'rname': '`id`', 'sortable': 1, 'sql': 'INT AUTO_INCREMENT NOT NULL', 'type': 'id', 'unique': False}, 'off_flag': {'length': 512, 'notnull': False, 'raw_rname': 'off_flag', 'rname': '`off_flag`', 'sortable': 7, 'sql': 'CHAR(1)', 'type': 'boolean', 'unique': False}, 'onoff_flag': {'length': 512, 'notnull': False, 'raw_rname': 'onoff_flag', 'rname': '`onoff_flag`', 'sortable': 6, 'sql': 'CHAR(1)', 'type': 'boolean', 'unique': False}, 'rot_flag': {'length': 512, 'notnull': False, 'raw_rname': 'rot_flag', 'rname': '`rot_flag`', 'sortable': 8, 'sql': 'VARCHAR(512)', 'type': 'string', 'unique': False}, 'volt_flag': {'length': 512, 'notnull': False, 'raw_rname': 'volt_flag', 'rname': '`volt_flag`', 'sortable': 3, 'sql': 'VARCHAR(512)', 'type': 'string', 'unique': False}}, sql_fields_aux={'curr_flag': {'sql': 'VARCHAR(512)'}, 'device_ref_id': {'sql': 'INT  , INDEX `device_ref_id__idx` (`device_ref_i...id`) REFERENCES `Device` (`id`) ON DELETE CASCADE'}, 'dir_flag': {'sql': 'VARCHAR(list:reference Direction)'}, 'freq_flag': {'sql': 'VARCHAR(512)'}, 'id': {'sql': 'INT AUTO_INCREMENT NOT NULL'}, 'off_flag': {'sql': 'CHAR(1)'}, 'onoff_flag': {'sql': 'CHAR(1)'}, 'rot_flag': {'sql': 'VARCHAR(512)'}, 'volt_flag': {'sql': 'VARCHAR(512)'}}, logfile=None, fake_migrate=False)"
+p216
+sg91
+S'migrate_table'
+p217
+sa(dp218
+g68
+S'/home/abdulhalim/Desktop/web2py/gluon/packages/dal/pydal/adapters/__init__.py'
+p219
+sg70
+(dp220
+S'kwargs'
+p221
+g21
+sS'args'
+p222
+S"(<pydal.adapters.mysql.MySQL object>, 'ALTER TABLE `Control_Instruction` ADD `dir_flag__tmp` VARCHAR(list:reference Direction);')"
+p223
+sS'f'
+S'<function execute>'
+p224
+ssg76
+I67
+sg77
+(dp225
+I64
+S'            if len(args) > 1:'
+p226
+sI65
+S'                raise ValueError(args[1])'
+p227
+sI66
+S"            raise RuntimeError('no connection available')"
+p228
+sI67
+S'        return f(*args, **kwargs)'
+p229
+sI68
+S'    return wrap'
+p230
+sI69
+S''
+sI70
+S''
+sI71
+S'from .base import SQLAdapter, NoSQLAdapter'
+p231
+sI62
+S'    def wrap(*args, **kwargs):'
+p232
+sI63
+S'        if not args[0].connection:'
+p233
+ssg89
+S"(*args=(<pydal.adapters.mysql.MySQL object>, 'ALTER TABLE `Control_Instruction` ADD `dir_flag__tmp` VARCHAR(list:reference Direction);'), **kwargs={})"
+p234
+sg91
+S'wrap'
+p235
+sa(dp236
+g68
+S'/home/abdulhalim/Desktop/web2py/gluon/packages/dal/pydal/adapters/base.py'
+p237
+sg70
+(dp238
+S'rv'
+p239
+g99
+sS'self'
+p240
+S'<pydal.adapters.mysql.MySQL object>'
+p241
+sS'args'
+p242
+S"('ALTER TABLE `Control_Instruction` ADD `dir_flag__tmp` VARCHAR(list:reference Direction);',)"
+p243
+sS'self.cursor'
+p244
+S'<gluon.contrib.pymysql.cursors.Cursor object>'
+p245
+sS'command'
+p246
+S"'ALTER TABLE `Control_Instruction` ADD `dir_flag__tmp` VARCHAR(list:reference Direction);'"
+p247
+sS'self.cursor.execute'
+p248
+S'<bound method Cursor.execute of <gluon.contrib.pymysql.cursors.Cursor object>>'
+p249
+sS'kwargs'
+p250
+g21
+ssg76
+I410
+sg77
+(dp251
+I405
+S'    def execute(self, *args, **kwargs):'
+p252
+sI406
+S'        command = self.filter_sql_command(args[0])'
+p253
+sI407
+S'        handlers = self._build_handlers_for_execution()'
+p254
+sI408
+S'        for handler in handlers:'
+p255
+sI409
+S'            handler.before_execute(command)'
+p256
+sI410
+S'        rv = self.cursor.execute(command, *args[1:], **kwargs)'
+p257
+sI411
+S'        for handler in handlers:'
+p258
+sI412
+S'            handler.after_execute(command)'
+p259
+sI413
+S'        return rv'
+p260
+sI414
+S''
+ssg89
+S"(self=<pydal.adapters.mysql.MySQL object>, *args=('ALTER TABLE `Control_Instruction` ADD `dir_flag__tmp` VARCHAR(list:reference Direction);',), **kwargs={})"
+p261
+sg91
+S'execute'
+p262
+sa(dp263
+g68
+S'/home/abdulhalim/Desktop/web2py/gluon/contrib/pymysql/cursors.py'
+p264
+sg70
+(dp265
+S'query'
+p266
+S"'ALTER TABLE `Control_Instruction` ADD `dir_flag__tmp` VARCHAR(list:reference Direction);'"
+p267
+sS'self'
+p268
+S'<gluon.contrib.pymysql.cursors.Cursor object>'
+p269
+sS'result'
+p270
+g99
+sS'self._query'
+p271
+S'<bound method Cursor._query of <gluon.contrib.pymysql.cursors.Cursor object>>'
+p272
+ssg76
+I166
+sg77
+(dp273
+I161
+S'        while self.nextset():'
+p274
+sI162
+S'            pass'
+p275
+sI163
+S''
+sI164
+S'        query = self.mogrify(query, args)'
+p276
+sI165
+S''
+sI166
+S'        result = self._query(query)'
+p277
+sI167
+S'        self._executed = query'
+p278
+sI168
+S'        return result'
+p279
+sI169
+S''
+sI170
+S'    def executemany(self, query, args):'
+p280
+ssg89
+S"(self=<gluon.contrib.pymysql.cursors.Cursor object>, query='ALTER TABLE `Control_Instruction` ADD `dir_flag__tmp` VARCHAR(list:reference Direction);', args=None)"
+p281
+sg91
+g262
+sa(dp282
+g68
+S'/home/abdulhalim/Desktop/web2py/gluon/contrib/pymysql/cursors.py'
+p283
+sg70
+(dp284
+S'q'
+S"'ALTER TABLE `Control_Instruction` ADD `dir_flag__tmp` VARCHAR(list:reference Direction);'"
+p285
+sS'conn.query'
+p286
+S'<bound method Connection.query of <gluon.contrib.pymysql.connections.Connection object>>'
+p287
+sS'conn'
+p288
+S'<gluon.contrib.pymysql.connections.Connection object>'
+p289
+ssg76
+I322
+sg77
+(dp290
+I320
+S'        conn = self._get_db()'
+p291
+sI321
+S'        self._last_executed = q'
+p292
+sI322
+S'        conn.query(q)'
+p293
+sI323
+S'        self._do_get_result()'
+p294
+sI324
+S'        return self.rowcount'
+p295
+sI325
+S''
+sI326
+S'    def _do_get_result(self):'
+p296
+sI317
+S'        self.rownumber = r'
+p297
+sI318
+S''
+sI319
+S'    def _query(self, q):'
+p298
+ssg89
+S"(self=<gluon.contrib.pymysql.cursors.Cursor object>, q='ALTER TABLE `Control_Instruction` ADD `dir_flag__tmp` VARCHAR(list:reference Direction);')"
+p299
+sg91
+S'_query'
+p300
+sa(dp301
+g68
+S'/home/abdulhalim/Desktop/web2py/gluon/contrib/pymysql/connections.py'
+p302
+sg70
+(dp303
+S'self._read_query_result'
+p304
+S'<bound method Connection._read_query_result of <...n.contrib.pymysql.connections.Connection object>>'
+p305
+sS'self'
+p306
+S'<gluon.contrib.pymysql.connections.Connection object>'
+p307
+sS'unbuffered'
+p308
+g182
+sS'self._affected_rows'
+p309
+S'0'
+ssg76
+I835
+sg77
+(dp310
+I832
+S'            else:'
+p311
+sI833
+S"                sql = sql.encode(self.encoding, 'surrogateescape')"
+p312
+sI834
+S'        self._execute_command(COMMAND.COM_QUERY, sql)'
+p313
+sI835
+S'        self._affected_rows = self._read_query_result(unbuffered=unbuffered)'
+p314
+sI836
+S'        return self._affected_rows'
+p315
+sI837
+S''
+sI838
+S'    def next_result(self, unbuffered=False):'
+p316
+sI839
+S'        self._affected_rows = self._read_query_result(unbuffered=unbuffered)'
+p317
+sI830
+S'            if PY2:'
+p318
+sI831
+S'                sql = sql.encode(self.encoding)'
+p319
+ssg89
+S"(self=<gluon.contrib.pymysql.connections.Connection object>, sql='ALTER TABLE `Control_Instruction` ADD `dir_flag__tmp` VARCHAR(list:reference Direction);', unbuffered=False)"
+p320
+sg91
+S'query'
+p321
+sa(dp322
+g68
+S'/home/abdulhalim/Desktop/web2py/gluon/contrib/pymysql/connections.py'
+p323
+sg70
+(dp324
+S'result.read'
+p325
+S'<bound method MySQLResult.read of <gluon.contrib.pymysql.connections.MySQLResult object>>'
+p326
+sS'result'
+p327
+S'<gluon.contrib.pymysql.connections.MySQLResult object>'
+p328
+ssg76
+I1019
+sg77
+(dp329
+I1014
+S'                result.unbuffered_active = False'
+p330
+sI1015
+S'                result.connection = None'
+p331
+sI1016
+S'                raise'
+p332
+sI1017
+S'        else:'
+p333
+sI1018
+S'            result = MySQLResult(self)'
+p334
+sI1019
+S'            result.read()'
+p335
+sI1020
+S'        self._result = result'
+p336
+sI1021
+S'        if result.server_status is not None:'
+p337
+sI1022
+S'            self.server_status = result.server_status'
+p338
+sI1023
+S'        return result.affected_rows'
+p339
+ssg89
+S'(self=<gluon.contrib.pymysql.connections.Connection object>, unbuffered=False)'
+p340
+sg91
+S'_read_query_result'
+p341
+sa(dp342
+g68
+S'/home/abdulhalim/Desktop/web2py/gluon/contrib/pymysql/connections.py'
+p343
+sg70
+(dp344
+S'first_packet'
+p345
+g99
+sS'self'
+p346
+S'<gluon.contrib.pymysql.connections.MySQLResult object>'
+p347
+sS'self.connection'
+p348
+S'None'
+p349
+sS'self.connection._read_packet'
+p350
+g99
+ssg76
+I1302
+sg77
+(dp351
+I1297
+S'        if self.unbuffered_active:'
+p352
+sI1298
+S'            self._finish_unbuffered_query()'
+p353
+sI1299
+S''
+sI1300
+S'    def read(self):'
+p354
+sI1301
+S'        try:'
+p355
+sI1302
+S'            first_packet = self.connection._read_packet()'
+p356
+sI1303
+S''
+sI1304
+S'            if first_packet.is_ok_packet():'
+p357
+sI1305
+S'                self._read_ok_packet(first_packet)'
+p358
+sI1306
+S'            elif first_packet.is_load_local_packet():'
+p359
+ssg89
+S'(self=<gluon.contrib.pymysql.connections.MySQLResult object>)'
+p360
+sg91
+S'read'
+p361
+sa(dp362
+g68
+S'/home/abdulhalim/Desktop/web2py/gluon/contrib/pymysql/connections.py'
+p363
+sg70
+(dp364
+S'packet'
+p365
+S'<gluon.contrib.pymysql.connections.MysqlPacket object>'
+p366
+sS'packet.check_error'
+p367
+S'<bound method MysqlPacket.check_error of <gluon.contrib.pymysql.connections.MysqlPacket object>>'
+p368
+ssg76
+I981
+sg77
+(dp369
+I976
+S'                continue'
+p370
+sI977
+S'            if bytes_to_read < MAX_PACKET_LEN:'
+p371
+sI978
+S'                break'
+p372
+sI979
+S''
+sI980
+S'        packet = packet_type(buff, self.encoding)'
+p373
+sI981
+S'        packet.check_error()'
+p374
+sI982
+S'        return packet'
+p375
+sI983
+S''
+sI984
+S'    def _read_bytes(self, num_bytes):'
+p376
+sI985
+S'        self._sock.settimeout(self._read_timeout)'
+p377
+ssg89
+S"(self=<gluon.contrib.pymysql.connections.Connection object>, packet_type=<class 'gluon.contrib.pymysql.connections.MysqlPacket'>)"
+p378
+sg91
+S'_read_packet'
+p379
+sa(dp380
+g68
+S'/home/abdulhalim/Desktop/web2py/gluon/contrib/pymysql/connections.py'
+p381
+sg70
+(dp382
+S'self._data'
+p383
+S'"\\xff(\\x04#42000You have an error in your SQL syntax; c...to use near \'list:reference Direction)\' at line 1"'
+p384
+sS'self'
+p385
+S'<gluon.contrib.pymysql.connections.MysqlPacket object>'
+p386
+sS'global err'
+p387
+S"<module 'gluon.contrib.pymysql.err' from '/home/...im/Desktop/web2py/gluon/contrib/pymysql/err.pyc'>"
+p388
+sS'err.raise_mysql_exception'
+p389
+S'<function raise_mysql_exception>'
+p390
+ssg76
+I393
+sg77
+(dp391
+I388
+S'        if self.is_error_packet():'
+p392
+sI389
+S'            self.rewind()'
+p393
+sI390
+S'            self.advance(1)  # field_count == error (we already know that)'
+p394
+sI391
+S'            errno = self.read_uint16()'
+p395
+sI392
+S'            if DEBUG: print("errno =", errno)'
+p396
+sI393
+S'            err.raise_mysql_exception(self._data)'
+p397
+sI394
+S''
+sI395
+S'    def dump(self):'
+p398
+sI396
+S'        dump_packet(self._data)'
+p399
+sI397
+S''
+ssg89
+S'(self=<gluon.contrib.pymysql.connections.MysqlPacket object>)'
+p400
+sg91
+S'check_error'
+p401
+sa(dp402
+g68
+S'/home/abdulhalim/Desktop/web2py/gluon/contrib/pymysql/err.py'
+p403
+sg70
+(dp404
+S'errorclass'
+p405
+S"<class 'gluon.contrib.pymysql.err.ProgrammingError'>"
+p406
+sS'errno'
+p407
+S'1064'
+p408
+sS'errval'
+p409
+S'u"You have an error in your SQL syntax; check th...o use near \'list:reference Direction)\' at line 1"'
+p410
+ssg76
+I107
+sg77
+(dp411
+I98
+S'def raise_mysql_exception(data):'
+p412
+sI99
+S"    errno = struct.unpack('<h', data[1:3])[0]"
+p413
+sI100
+S'    is_41 = data[3:4] == b"#"'
+p414
+sI101
+S'    if is_41:'
+p415
+sI102
+S'        # client protocol 4.1'
+p416
+sI103
+S"        errval = data[9:].decode('utf-8', 'replace')"
+p417
+sI104
+S'    else:'
+p418
+sI105
+S"        errval = data[3:].decode('utf-8', 'replace')"
+p419
+sI106
+S'    errorclass = error_map.get(errno, InternalError)'
+p420
+sI107
+S'    raise errorclass(errno, errval)'
+p421
+ssg89
+S'(data="\\xff(\\x04#42000You have an error in your SQL syntax; c...to use near \'list:reference Direction)\' at line 1")'
+p422
+sg91
+S'raise_mysql_exception'
+p423
+sasS'pyver'
+p424
+S'Python 2.7.12: /usr/bin/python (prefix: /usr)'
+p425
+sS'session'
+p426
+g63
+(S's\xa0\n\x00\x00<div><table><tr><td style="font-weight:bold;vertical-align:top;">auth</td><td style="vertical-align:top;">:</td><td><div><table><tr><td style="font-weight:bold;vertical-align:top;">expiration</td><td style="vertical-align:top;">:</td><td><div>3600</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">hmac_key</td><td style="vertical-align:top;">:</td><td><div>ca7e8ede-27e9-4aa0-ba3f-7446c9e2b000</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">last_visit</td><td style="vertical-align:top;">:</td><td><div>datetime.datetime(2017, 7, 23, 22, 50, 19, 879722)</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">remember_me</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">user</td><td style="vertical-align:top;">:</td><td><div><table><tr><td style="font-weight:bold;vertical-align:top;">email</td><td style="vertical-align:top;">:</td><td><div>enrhalim7@gmail.com</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">first_name</td><td style="vertical-align:top;">:</td><td><div>abdul</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">id</td><td style="vertical-align:top;">:</td><td><div>1L</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">last_name</td><td style="vertical-align:top;">:</td><td><div>halim</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">registration_id</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">registration_key</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">reset_password_key</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">username</td><td style="vertical-align:top;">:</td><td><div>abdulhalim7</div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">user_groups</td><td style="vertical-align:top;">:</td><td><div><table><tr><td style="font-weight:bold;vertical-align:top;">1</td><td style="vertical-align:top;">:</td><td><div>user_1</div></td></tr></table></div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">flash</td><td style="vertical-align:top;">:</td><td><div>None</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">last_orderby</td><td style="vertical-align:top;">:</td><td><div>None</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">last_query</td><td style="vertical-align:top;">:</td><td><div>db.Control_Instruction.id&gt;0</div></td></tr></table></div>'
+tRp427
+sS'etype'
+p428
+S"<class 'gluon.contrib.pymysql.err.ProgrammingError'>"
+p429
+sS'date'
+p430
+S'Sun Jul 23 22:50:20 2017'
+p431
+sS'response'
+p432
+g63
+(S'ss\x17\x00\x00<div><table><tr><td style="font-weight:bold;vertical-align:top;">body</td><td style="vertical-align:top;">:</td><td><div>&lt;cStringIO.StringO object at 0x7f394cb060d8&gt;</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">cookies</td><td style="vertical-align:top;">:</td><td><div><table><tr><td style="font-weight:bold;vertical-align:top;">session_id_motor</td><td style="vertical-align:top;">:</td><td><div>127.0.0.1-8c0f46e0-2bdd-43a3-bdde-04e7c86a2a96<table><tr><td style="font-weight:bold;vertical-align:top;">comment</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">domain</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">expires</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">httponly</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">max-age</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">path</td><td style="vertical-align:top;">:</td><td><div>/</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">secure</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">version</td><td style="vertical-align:top;">:</td><td><div></div></td></tr></table></div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">delimiters</td><td style="vertical-align:top;">:</td><td><div><table><tr><td><div>{{</div></td></tr><tr><td><div>}}</div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">files</td><td style="vertical-align:top;">:</td><td><div><table></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">flash</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">form_label_separator</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">formstyle</td><td style="vertical-align:top;">:</td><td><div>bootstrap3_inline</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">generic_patterns</td><td style="vertical-align:top;">:</td><td><div><table><tr><td><div>*</div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">headers</td><td style="vertical-align:top;">:</td><td><div><table><tr><td style="font-weight:bold;vertical-align:top;">X-Powered-By</td><td style="vertical-align:top;">:</td><td><div>web2py</div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">menu</td><td style="vertical-align:top;">:</td><td><div><table></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">meta</td><td style="vertical-align:top;">:</td><td><div><table></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">models_to_run</td><td style="vertical-align:top;">:</td><td><div><table><tr><td><div>^\\w+\\.py$</div></td></tr><tr><td><div>^appadmin/\\w+\\.py$</div></td></tr><tr><td><div>^appadmin/index/\\w+\\.py$</div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">postprocessing</td><td style="vertical-align:top;">:</td><td><div><table></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_client</td><td style="vertical-align:top;">:</td><td><div>127.0.0.1</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_cookie_compression_level</td><td style="vertical-align:top;">:</td><td><div>None</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_cookie_expires</td><td style="vertical-align:top;">:</td><td><div>None</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_data_name</td><td style="vertical-align:top;">:</td><td><div>session_data_motor</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_file</td><td style="vertical-align:top;">:</td><td><div>&lt;open file &#x27;/home/abdulhalim/Desktop/web2py/applications/motor/sessions/08d/023/127.0.0.1-8c0f46e0-2bdd-43a3-bdde-04e7c86a2a96&#x27;, mode &#x27;rb+&#x27; at 0x7f394cb0d420&gt;</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_filename</td><td style="vertical-align:top;">:</td><td><div>/home/abdulhalim/Desktop/web2py/applications/motor/sessions/127.0.0.1-8c0f46e0-2bdd-43a3-bdde-04e7c86a2a96</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_hash</td><td style="vertical-align:top;">:</td><td><div>69795d82635c388eb6faebc72c419327</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_id</td><td style="vertical-align:top;">:</td><td><div>127.0.0.1-8c0f46e0-2bdd-43a3-bdde-04e7c86a2a96</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_id_name</td><td style="vertical-align:top;">:</td><td><div>session_id_motor</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_locked</td><td style="vertical-align:top;">:</td><td><div>True</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_masterapp</td><td style="vertical-align:top;">:</td><td><div>motor</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_new</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_storage_type</td><td style="vertical-align:top;">:</td><td><div>file</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">status</td><td style="vertical-align:top;">:</td><td><div>200</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">view</td><td style="vertical-align:top;">:</td><td><div>appadmin/index.html</div></td></tr></table></div>'
+tRp433
+sS'locals'
+p434
+(dp435
+S'errorclass'
+p436
+S"<class 'gluon.contrib.pymysql.err.ProgrammingError'>"
+p437
+sS'errno'
+p438
+S'1064'
+p439
+sS'is_41'
+p440
+S'True'
+p441
+sS'errval'
+p442
+S'u"You have an error in your SQL syntax; check th...o use near \'list:reference Direction)\' at line 1"'
+p443
+sS'data'
+p444
+S'"\\xff(\\x04#42000You have an error in your SQL syntax; c...to use near \'list:reference Direction)\' at line 1"'
+p445
+sssS'traceback'
+p446
+S'Traceback (most recent call last):\n  File "/home/abdulhalim/Desktop/web2py/gluon/restricted.py", line 219, in restricted\n    exec(ccode, environment)\n  File "/home/abdulhalim/Desktop/web2py/applications/motor/models/db1.py", line 29, in <module>\n    Field(\'dir_flag\', \'string\', \'list:reference Direction\', label = \'Direction\'))\n  File "/home/abdulhalim/Desktop/web2py/gluon/packages/dal/pydal/base.py", line 587, in define_table\n    table = self.lazy_define_table(tablename, *fields, **args)\n  File "/home/abdulhalim/Desktop/web2py/gluon/packages/dal/pydal/base.py", line 621, in lazy_define_table\n    polymodel=polymodel)\n  File "/home/abdulhalim/Desktop/web2py/gluon/packages/dal/pydal/adapters/base.py", line 795, in create_table\n    return self.migrator.create_table(*args, **kwargs)\n  File "/home/abdulhalim/Desktop/web2py/gluon/packages/dal/pydal/migrator.py", line 314, in create_table\n    fake_migrate=fake_migrate\n  File "/home/abdulhalim/Desktop/web2py/gluon/packages/dal/pydal/migrator.py", line 447, in migrate_table\n    self.adapter.execute(sub_query)\n  File "/home/abdulhalim/Desktop/web2py/gluon/packages/dal/pydal/adapters/__init__.py", line 67, in wrap\n    return f(*args, **kwargs)\n  File "/home/abdulhalim/Desktop/web2py/gluon/packages/dal/pydal/adapters/base.py", line 410, in execute\n    rv = self.cursor.execute(command, *args[1:], **kwargs)\n  File "/home/abdulhalim/Desktop/web2py/gluon/contrib/pymysql/cursors.py", line 166, in execute\n    result = self._query(query)\n  File "/home/abdulhalim/Desktop/web2py/gluon/contrib/pymysql/cursors.py", line 322, in _query\n    conn.query(q)\n  File "/home/abdulhalim/Desktop/web2py/gluon/contrib/pymysql/connections.py", line 835, in query\n    self._affected_rows = self._read_query_result(unbuffered=unbuffered)\n  File "/home/abdulhalim/Desktop/web2py/gluon/contrib/pymysql/connections.py", line 1019, in _read_query_result\n    result.read()\n  File "/home/abdulhalim/Desktop/web2py/gluon/contrib/pymysql/connections.py", line 1302, in read\n    first_packet = self.connection._read_packet()\n  File "/home/abdulhalim/Desktop/web2py/gluon/contrib/pymysql/connections.py", line 981, in _read_packet\n    packet.check_error()\n  File "/home/abdulhalim/Desktop/web2py/gluon/contrib/pymysql/connections.py", line 393, in check_error\n    err.raise_mysql_exception(self._data)\n  File "/home/abdulhalim/Desktop/web2py/gluon/contrib/pymysql/err.py", line 107, in raise_mysql_exception\n    raise errorclass(errno, errval)\nProgrammingError: (1064, u"You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near \'list:reference Direction)\' at line 1")\n'
+p447
+s.

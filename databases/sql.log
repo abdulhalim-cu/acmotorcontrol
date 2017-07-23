@@ -178,3 +178,13 @@ timestamp: 2017-07-15T15:50:40.542918
 ALTER TABLE `auth_user` ADD `username` VARCHAR(128);
 success!
 success!
+timestamp: 2017-07-23T22:50:19.962789
+CREATE TABLE `Direction`(
+    `id` INT AUTO_INCREMENT NOT NULL,
+    `direction_type` VARCHAR(512),
+    PRIMARY KEY (`id`)
+) ENGINE=InnoDB CHARACTER SET utf8;
+success!
+timestamp: 2017-07-23T22:50:20.573789
+ALTER TABLE `Control_Instruction` ADD `dir_flag__tmp` VARCHAR(list:reference Direction);
+success!
