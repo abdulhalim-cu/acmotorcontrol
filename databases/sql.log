@@ -188,3 +188,16 @@ success!
 timestamp: 2017-07-23T22:50:20.573789
 ALTER TABLE `Control_Instruction` ADD `dir_flag__tmp` VARCHAR(list:reference Direction);
 success!
+timestamp: 2017-07-23T23:44:28.372648
+CREATE TABLE `Status`(
+    `id` INT AUTO_INCREMENT NOT NULL,
+    `device_ref_id` INT  , INDEX `device_ref_id__idx` (`device_ref_id`), FOREIGN KEY (`device_ref_id`) REFERENCES `Device` (`id`) ON DELETE CASCADE,
+    `last_ping` DATETIME,
+    `server_time` DATETIME,
+    PRIMARY KEY (`id`)
+) ENGINE=InnoDB CHARACTER SET utf8;
+success!
+timestamp: 2017-07-24T02:03:36.548619
+ALTER TABLE `Status` ADD `created` DATETIME;
+success!
+success!

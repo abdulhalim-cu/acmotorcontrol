@@ -1,8 +1,8 @@
 
 {{extend 'layout.html'}}
-
+{{from datetime import datetime}}
 <div class='row'>
-    
+    {{#=user_devices}}
     {{for device in user_devices:}}
     <div class="col-md-4 col-sm-4">
         <div class="tile-box tile-box-alt mrg20B bg-user">
@@ -10,6 +10,12 @@
             <div class="tile-content-wrapper"><i class="glyph-icon fa-tachometer"></i>
                 <div class="tile-content"> {{=device[4]}}</div>
             </div>
+            {{ if device[6] == device[7]: }}
+                <div style="margin-top: 10px;">Last Connected: Not yet</div>
+            {{ else: }}
+                {{connected=str(device[7]).split()}}
+                <div style="margin-top: 5px;">Last Connected: {{=datetime.strptime(connected[0], '%Y-%m-%d').strftime('%d-%m-%Y')}} | {{=datetime.strptime(connected[1], '%H:%M:%S').strftime('%H:%M %p')}}</div>
+            {{pass}}
             <a href="{{=URL('default','dev_control', args=device[0])}}" class="tile-footer tooltip-button" data-placement="bottom" title="" data-original-title="Device">View Controller
             <i class="glyph-icon fa-cog"></i>
             </a>
@@ -22,6 +28,8 @@
     </h3>
 </div>
 
+
+{{#=device_status}}
 
 <script type="text/javascript">
     $(document).ready(function() {

@@ -1,13 +1,25 @@
+# -*- coding: utf-8 -*-
+import gluon.contrib.simplejson as json
+from datetime import datetime, timedelta
+from time import localtime, strftime
+import calendar, random
+import pytz
+
+
+
 def index():
     if not auth.user:
         redirect(URL('user/login'))
 
     user_name = "%(username)s" % auth.user
     user_devices = db.executesql("SELECT Device.id, Device.device_id, Device.device_name, Device.model, Device.location, \
-            User_Device.user_ref_id FROM Device INNER JOIN (auth_user INNER JOIN User_Device \
-            ON auth_user.id = User_Device.user_ref_id) ON Device.id = User_Device.device_ref_id \
-            WHERE (((auth_user.username)=%s))", user_name)
+            User_Device.user_ref_id, Status.created, Status.last_ping FROM Device INNER JOIN (auth_user INNER JOIN (User_Device INNER JOIN \
+            Status ON User_Device.device_ref_id = Status.device_ref_id) ON auth_user.id = User_Device.user_ref_id) ON Device.id = User_Device.device_ref_id \
+            WHERE ((auth_user.username)=%s)", user_name)
 
+    # status = db.executesql("SELECT Status.last_ping FROM Status INNER JOIN (auth_user INNER JOIN (User_Device INNER JOIN Device \
+    #                         ON User_Device.device_ref_id = Device.id) ON auth_user.id = User_Device.user_ref_id) \
+    #                         ON Status.device_ref_id = User_Device.device_ref_id WHERE ((auth_user.username)=%s)", user_name)
     return dict(user_devices=user_devices)
 
 @auth.requires_login()
@@ -32,6 +44,10 @@ def add_device():
                     freq_flag, onoff_flag, off_flag, rot_flag, dir_flag) VALUES(%s, %s, %s, %s, %s, %s, %s, %s)",\
                      (device_ref_id, '0', '0', '0', 0, 0, '0', '0'))
                 db.commit()
+                dt = datetime.now(pytz.timezone('Asia/Dhaka')).strftime("%Y-%m-%d %H:%M:%S")
+                time = datetime.strptime(dt, "%Y-%m-%d %H:%M:%S")
+                db.executesql("INSERT INTO Status (device_ref_id, last_ping, server_time) VALUES(%s, %s, %s)", (device_ref_id, time, time))
+                db.commit()
     return dict()
 
 
@@ -44,6 +60,7 @@ def dev_control():
             db.Control_Instruction.id.readable = db.Control_Instruction.id.writable = False
             db.Control_Instruction.device_ref_id.readable = db.Control_Instruction.device_ref_id.writable = False
             db.Control_Instruction.off_flag.readable = db.Control_Instruction.off_flag.writable = False
+            db.Control_Instruction.freq_flag.readable = db.Control_Instruction.freq_flag.writable = False
             form = SQLFORM(db.Control_Instruction, id[0][0], showid=False).process(next='index')
             return dict(form = form)
         else:
@@ -52,23 +69,32 @@ def dev_control():
 
 def get_instruction():
     if request.vars.deviceid:
+        dt = datetime.now(pytz.timezone('Asia/Dhaka')).strftime("%Y-%m-%d %H:%M:%S")
+        ping = datetime.strptime(dt, "%Y-%m-%d %H:%M:%S")
+        server_time = datetime.now()
         device_id = request.vars.deviceid
-        device_info = db.executesql("SELECT Control_Instruction.volt_flag, Control_Instruction.curr_flag, \
-            Control_Instruction.freq_flag, Control_Instruction.onoff_flag, Control_Instruction.rot_flag, \
-            Direction.direction_type FROM Device INNER JOIN (Control_Instruction INNER JOIN Direction ON Direction.id = Control_Instruction.dir_flag) \
-            ON (Device.id = Control_Instruction.device_ref_id) WHERE Device.device_id=%s", device_id)
+        query = db.executesql("SELECT id FROM Device WHERE device_id=%s", device_id)[0][0]
+        if query:
+            db.Status.update_or_insert(db.Status.device_ref_id==query, device_ref_id=query, last_ping=ping, server_time=ping)
+            db.commit()
+            device_info = db.executesql("SELECT Control_Instruction.volt_flag, Control_Instruction.curr_flag, \
+                Control_Instruction.freq_flag, Control_Instruction.onoff_flag, Control_Instruction.rot_flag, \
+                Direction.direction_type FROM Device INNER JOIN (Control_Instruction INNER JOIN Direction ON Direction.id = Control_Instruction.dir_flag) \
+                ON (Device.id = Control_Instruction.device_ref_id) WHERE Device.device_id=%s", device_id)
 
-        jsonlst = []
-        for i in device_info:
-            volt = i[0]
-            curr = i[1]
-            freq = i[2]
-            onof = i[3]
-            rota = i[4]
-            dire = i[5]
-            record = {"voltage" : volt, "current" : curr, "frquency" : freq, "onoff" : onof, "rotation" : rota, "direction": dire}
-            jsonlst.append(record)
-        return dict(device_info = jsonlst)
+            jsonlst = []
+            for i in device_info:
+                volt = i[0]
+                curr = i[1]
+                freq = i[2]
+                onof = i[3]
+                rota = i[4]
+                dire = i[5]
+                record = {"voltage" : volt, "current" : curr, "frquency" : freq, "onoff" : onof, "rotation" : rota, "direction": dire}
+                jsonlst.append(record)
+            return dict(device_info = jsonlst, query=query)
+        else:
+            return None
     else:
         return None
 
